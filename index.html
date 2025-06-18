@@ -41,7 +41,7 @@
                 .body1{
                     background-image: url(photoes/pic2.jpeg.jpeg);
                     width: 100%;
-                    height: 100vh;
+                    height: 110vh;
                 }
                 .ttitle{
                     
@@ -53,7 +53,7 @@
                 }
                 .first{
                      border: 1px solid black;
-                     width: 23%;
+                     width: 45vh;
                      padding: 0.7em;
                      background-color: white;
                      border-radius: 5px;
@@ -63,7 +63,65 @@
                      font-size: 20px;
 
                 }
-                .but{
+                .but button{
+                    padding: 1em;
+                    width: 80px;
+                    border-radius: 20px;
+                     margin: 30px;
+                     font-size: 15px;
+                     background-color: rgb(2, 97, 180);
+                     border: none;
+                     font-weight: bold;
+                     color: white;
+
+                }
+                .container{
+                    display: grid;
+                    grid-template-columns: repeat(4,1fr);
+                     border: 1px solid black;
+                     width: 208vh;
+                    margin: 20px;
+                    background-color: white;
+                    border-radius: 10px;
+                }
+                .text{
+                   display: flex;
+                   gap: 20px;
+                }
+                .text h4{
+                    margin-top: 10px;
+                    font-size: 17px;
+                    color: white;
+                    font-weight: bold;
+                }
+                #img1{
+                    width:50px;
+                }
+                .thirdpart{
+                    display: flex;
+                    justify-content: space-between;
+                    margin: 45px;
+                    background-color: rgb(28, 28, 64);
+                    padding-bottom: 20px;
+                    padding: 15px;
+                     border-radius: 10px;
+                }
+                .register button{
+                     padding: 0.5em;
+                    width: 80px;
+                    border-radius: 20px;
+                    
+                     font-size: 15px;
+                     background-color: rgb(2, 97, 180);
+                     border: none;
+                     font-weight: bold;
+                     color: white;
+                    
+
+                }
+                .firsone .text{
+                    background-color: blue;
+                    width: 100px;
 
                 }
            
@@ -90,13 +148,13 @@
 
     <div class="body1">
         <div class="ttitle">
-        <h2>Die ganza Unterkunft nur fur dich</h2>
+        <h2>The whole accommodation just for you</h2>
         </div>
 
         <div class="container">
                <div class="first">
                      <div class="ico"><i class="fa-solid fa-location-dot" id="icon1"></i></div>
-                     <div class="word1">Wo soll's hingehen?</div>
+                     <div class="word1">Where should we go?</div>
                </div>
 
                 <div class="first">
@@ -111,6 +169,24 @@
                <div class="but"><button>Seek</button></div>
         </div>
 
+    </div>
+
+    <div class="thirdpart">
+        <div class="text">
+            <div><img src="photoes/pi.jpeg" alt="" id="img1"></div>
+        <div><h4>Sign in to send a message to the host and get more details about a listing.</h4></div>
+        </div>
+        <div class="register"><button>Register</button></div>
+    </div>
+
+
+    <div class="allpart3">
+
+        <div class="firsone">
+
+            <div class="text">Price without <br> suprises:The <br>displayed price <br> already includes th...</div>
+            <div><img src="photoes/pi3.jpeg" alt=""></div>
+        </div>
     </div>
 </body>
 </html>
