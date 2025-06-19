@@ -6,247 +6,306 @@
     <title>FeWo-direkta</title>
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <style>
-        *{
-            margin: 0;
-            padding:0;
-            text-decoration: none;
-            list-style: none;
-                }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      list-style: none;
+    }
 
-               .header-part{
-                
-               
-            
-                background-color:white;
-                padding-bottom: 10px;
-                
-               } 
-               .nav-header ul{
-                display: flex;
-                gap: 30px;
-                margin-top: 5px;
-               }
-                .nav-header ul a{
-                    color: black;
-                    font-size: 19px;
-                    font-weight: bold;
+    body {
+      font-family: sans-serif;
+    }
 
-                }
-                .all{
-                    display: flex;
-                    padding: 20px; 
-                    justify-content: space-between;
+    /* Your original styles here (unchanged) */
 
-                }
-                .body1{
-                    background-image: url(photoes/pic2.jpeg.jpeg);
-                    width: 100%;
-                    height: 110vh;
-                }
-                .ttitle{
-                    
-                    padding-top: 200px;
-                    margin-left: 40px;
-                    color: white;
-                    font-size: 25px;
-                    font-weight: bold;
-                }
-                .first{
-                     border: 1px solid black;
-                     width: 45vh;
-                     padding: 0.7em;
-                     background-color: white;
-                     border-radius: 5px;
-                     display: flex;
-                     gap: 15px;
-                     margin: 30px;
-                     font-size: 20px;
+    .header-part {
+      background-color: white;
+      padding-bottom: 10px;
+    }
 
-                }
-                .but button{
-                    padding: 1em;
-                    width: 80px;
-                    border-radius: 20px;
-                     margin: 30px;
-                     font-size: 15px;
-                     background-color: rgb(2, 97, 180);
-                     border: none;
-                     font-weight: bold;
-                     color: white;
+    .nav-header ul {
+      display: flex;
+      gap: 30px;
+      margin-top: 5px;
+    }
 
-                }
-                .container{
-                    display: grid;
-                    grid-template-columns: repeat(4,1fr);
-                     border: 1px solid black;
-                     width: 208vh;
-                    margin: 20px;
-                    background-color: white;
-                    border-radius: 10px;
-                }
-                .text{
-                   display: flex;
-                   gap: 20px;
-                }
-                .text h4{
-                    margin-top: 10px;
-                    font-size: 17px;
-                    color: white;
-                    font-weight: bold;
-                }
-                #img1{
-                    width:50px;
-                }
-                .thirdpart{
-                    display: flex;
-                    justify-content: space-between;
-                    margin: 45px;
-                    background-color: rgb(28, 28, 64);
-                    padding-bottom: 20px;
-                    padding: 15px;
-                     border-radius: 10px;
-                }
-                .register button{
-                     padding: 0.5em;
-                    width: 80px;
-                    border-radius: 20px;
-                    
-                     font-size: 15px;
-                     background-color: rgb(2, 97, 180);
-                     border: none;
-                     font-weight: bold;
-                     color: white;
-                    
+    .nav-header ul a {
+      color: black;
+      font-size: 19px;
+      font-weight: bold;
+    }
 
-                }
-                .firsone .text{
-                    background-color: rgb(2, 97, 180);
-                   width: 30vh;
-                   height: 23.4vh;
-                    font-size: 20px;
-                    color: white;
-                    padding: 5px;
+    .all {
+      display: flex;
+      padding: 20px;
+      justify-content: space-between;
+    }
 
-                }
-                #im{
-                    width: 30vh;
-                    height: 25vh;
-                }
-                .firsone{
-                    display: flex;
-                }
-                .allpart3{
-                    display: grid;
-                    grid-template-columns: repeat(3,1fr);
-                  
-                    margin: 45px;
-                }
-                #pic{
-                    width: 100%;
-                }
-                .part4{
+    .body1 {
+      background-image: url(photoes/pic2.jpeg.jpeg);
+      width: 100%;
+      height: 110vh;
+    }
 
-                    display: grid;
-                    grid-template-columns: repeat(5,1fr);
-                    margin: 45px;
-                }
-                .text2{
-                    margin: 45px;
-                    font-size: 25px;
-                    color: rgb(28, 28, 64);
-                    font-weight: bold;
-                }
-                .tex6{
-                         margin-top: 45px;
-                          margin-left: 45px;
-                    font-size: 25px;
-                    color: rgb(28, 28, 64);
-                    font-weight: bold;
+    .ttitle {
+      padding-top: 200px;
+      margin-left: 40px;
+      color: white;
+      font-size: 25px;
+      font-weight: bold;
+    }
 
-                }
-                .tex7{
-                          margin-left: 45px;
-                         font-size: 18px;
-                        color: rgb(28, 28, 64);
-                        
-                }
-                #pii{
-                   width: 42vh;
-                    height: 28vh;
-                }
-                #pii2{
-                     width: 30vh;
-                  
+    .first {
+      border: 1px solid black;
+      width: 45vh;
+      padding: 0.7em;
+      background-color: white;
+      border-radius: 5px;
+      display: flex;
+      gap: 15px;
+      margin: 30px;
+      font-size: 20px;
+    }
 
-                }
-                .tex22{
-                    font-size: 18px;
-                    color: rgb(28, 28, 64);
-                    font-weight: bold;
+    .but button {
+      padding: 1em;
+      width: 80px;
+      border-radius: 20px;
+      margin: 30px;
+      font-size: 15px;
+      background-color: rgb(2, 97, 180);
+      border: none;
+      font-weight: bold;
+      color: white;
+    }
 
-                }
-                span{
-                    color: rgb(28, 28, 64);
-                    font-weight: bold;
-                }
-                .te2{
-                    margin-top: 20px;
-                }
-                .allpart5{
-                    margin: 45px;
-                    display: grid;
-                    grid-template-columns: repeat(4,1fr);
-                }
-                #ph1{
-                    width: 100%;
-                }
-                .tex11{
-                     color: rgb(28, 28, 64);
-                     font-weight: bold;
-                     font-size: 18px;
-                }
-                .part6{
-                    display: grid;
-                    grid-template-columns: repeat(2,1fr);
-                    margin: 45px;
-                }
-                .tew{
-                      margin-left: 45px;
+    .container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      border: 1px solid black;
+      width: 208vh;
+      margin: 20px;
+      background-color: white;
+      border-radius: 10px;
+    }
 
-                }
+    .text {
+      display: flex;
+      gap: 20px;
+    }
 
-                .te12{
-                       
-                         font-size: 18px;
-                         font-weight: bold;
-                        color: rgb(28, 28, 64);
+    .text h4 {
+      margin-top: 10px;
+      font-size: 17px;
+      color: white;
+      font-weight: bold;
+    }
 
-                }
-                .tex41{
-                        font-size: 25px;
-                         font-weight: bold;
-                        color: rgb(28, 28, 64);
+    #img1 {
+      width: 50px;
+    }
 
-                }
-                #pici{
-                    width:200px;
-                    height: 50vh;
-                }
-                .pic{
-                    display: grid;
-                    grid-template-columns: repeat(4,1fr);
-                    gap: 20px;
-                }
-                .alll{
-                    display: flex;
-                    gap: 100px;
-                    margin: 45px;
-                    border: 1px solid rgb(83, 81, 81);
-                    padding: 1em;
-                    border-radius: 10px;
-                }
-           
-    </style>
+    .thirdpart {
+      display: flex;
+      justify-content: space-between;
+      margin: 45px;
+      background-color: rgb(28, 28, 64);
+      padding-bottom: 20px;
+      padding: 15px;
+      border-radius: 10px;
+    }
+
+    .register button {
+      padding: 0.5em;
+      width: 80px;
+      border-radius: 20px;
+      font-size: 15px;
+      background-color: rgb(2, 97, 180);
+      border: none;
+      font-weight: bold;
+      color: white;
+    }
+
+    .firsone .text {
+      background-color: rgb(2, 97, 180);
+      width: 30vh;
+      height: 23.4vh;
+      font-size: 20px;
+      color: white;
+      padding: 5px;
+    }
+
+    #im {
+      width: 30vh;
+      height: 25vh;
+    }
+
+    .firsone {
+      display: flex;
+    }
+
+    .allpart3 {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 45px;
+    }
+
+    #pic {
+      width: 100%;
+    }
+
+    .part4 {
+      display: grid;
+      grid-template-columns: repeat(5, 1fr);
+      margin: 45px;
+    }
+
+    .text2 {
+      margin: 45px;
+      font-size: 25px;
+      color: rgb(28, 28, 64);
+      font-weight: bold;
+    }
+
+    .tex6 {
+      margin-top: 45px;
+      margin-left: 45px;
+      font-size: 25px;
+      color: rgb(28, 28, 64);
+      font-weight: bold;
+    }
+
+    .tex7 {
+      margin-left: 45px;
+      font-size: 18px;
+      color: rgb(28, 28, 64);
+    }
+
+    #pii {
+      width: 42vh;
+      height: 28vh;
+    }
+
+    #pii2 {
+      width: 30vh;
+    }
+
+    .tex22 {
+      font-size: 18px;
+      color: rgb(28, 28, 64);
+      font-weight: bold;
+    }
+
+    span {
+      color: rgb(28, 28, 64);
+      font-weight: bold;
+    }
+
+    .te2 {
+      margin-top: 20px;
+    }
+
+    .allpart5 {
+      margin: 45px;
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    #ph1 {
+      width: 100%;
+    }
+
+    .tex11 {
+      color: rgb(28, 28, 64);
+      font-weight: bold;
+      font-size: 18px;
+    }
+
+    .part6 {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 45px;
+    }
+
+    .tew {
+      margin-left: 45px;
+    }
+
+    .te12 {
+      font-size: 18px;
+      font-weight: bold;
+      color: rgb(28, 28, 64);
+    }
+
+    .tex41 {
+      font-size: 25px;
+      font-weight: bold;
+      color: rgb(28, 28, 64);
+    }
+
+    #pici {
+      width: 200px;
+      height: 50vh;
+    }
+
+    .pic {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 20px;
+    }
+
+    .alll {
+      display: flex;
+      gap: 100px;
+      margin: 45px;
+      border: 1px solid rgb(83, 81, 81);
+      padding: 1em;
+      border-radius: 10px;
+    }
+
+    /* Responsive styles */
+    @media (max-width: 1200px) {
+      .container, .allpart3, .part4, .allpart5, .pic {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .container, .allpart3, .part4, .allpart5, .pic {
+        grid-template-columns: 1fr;
+      }
+
+      .all {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .firsone {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .ttitle {
+        padding-top: 100px;
+        font-size: 18px;
+        text-align: center;
+        margin-left: 0;
+      }
+
+      .nav-header ul {
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .alll {
+        flex-direction: column;
+        gap: 20px;
+      }
+    }
+  </style>
 </head>
 <body>
   
